@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software or the published models, please cite the article below."
+title: "ivcmassist: tiled segmentation of corneal nerves and dendritic cells in IVCM mosaics"
+version: 1.0.0
+date-released: "2026-09-17"
+license: Apache-2.0
+repository-code: "https://github.com/yansonng/ivcmassist"
+type: software
+authors:
+  - family-names: "Lincke"
+    given-names: "Alisa"
+    affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+  - family-names: "Ji"
+    given-names: "Meichen"
+    affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+  - family-names: "Song"
+    given-names: "Yan"
+    affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+preferred-citation:
+  type: article
+  title: "Deep learning-based segmentation and density estimation of corneal nerves and dendritic cells from In Vivo confocal microscopy images"
+  journal: "Scientific Reports"
+  volume: 16
+  issue: 1
+  start: 1620  # article number
+  year: 2026
+  month: 1
+  doi: "10.1038/s41598-025-34412-6"
+  url: "https://www.nature.com/articles/s41598-025-34412-6"
+  authors:
+    - family-names: "Ji"
+      given-names: "Meichen"
+      affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+    - family-names: "Song"
+      given-names: "Yan"
+      affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+    - family-names: "Roth"
+      given-names: "Jenny"
+      affiliation: "Department of Medicine and Optometry, Faculty of Health and Life Sciences, Linnaeus University, Kalmar, Sweden"
+    - family-names: "Dashti"
+      given-names: "Ava"
+      affiliation: "Department of Biomedical and Clinical Sciences (BKV), Faculty of Medicine, Linköping University, Linköping, Sweden"
+    - family-names: "Lazo"
+      given-names: "Jorge"
+      affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+    - family-names: "Lincke"
+      given-names: "Alisa"
+      affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+    - family-names: "Macedo"
+      given-names: "António Filipe Teixeira"
+      affiliation: "Department of Medicine and Optometry, Faculty of Health and Life Sciences, Linnaeus University, Kalmar, Sweden"
+    - family-names: "Löwe"
+      given-names: "Welf"
+      affiliation: "Department of Computer Science and Media Technology, Faculty of Technology, Linnaeus University, Växjö, Sweden"
+    - family-names: "Lagali"
+      given-names: "Neil"
+      affiliation: "Department of Biomedical and Clinical Sciences (BKV), Faculty of Medicine, Linköping University, Linköping, Sweden"

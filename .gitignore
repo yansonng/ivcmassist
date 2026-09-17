@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Model weights are distributed via HuggingFace, never committed.
+weights/
+*.keras
+*.weights.h5
+
+# Prediction outputs and any local imaging data.
+output/
+outputs/
+data/**/*.tif
+!data/sample/*.tif
+
+# Staging folder for the HuggingFace upload (weights + model card).
+hf_release/
+
+# Internal release process notes; kept locally, not published.
+docs/RELEASE_CHECKLIST.md

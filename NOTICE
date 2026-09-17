@@ -1,0 +1,13 @@
+ivcmassist
+Copyright 2026 Alisa Lincke, Meichen Ji and Yan Song
+
+This software builds on the work described in:
+  Ji, M., Song, Y. et al. Deep learning-based segmentation and density
+  estimation of corneal nerves and dendritic cells from In Vivo confocal
+  microscopy images. Scientific Reports 16, 1620 (2026).
+  https://doi.org/10.1038/s41598-025-34412-6
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+Model weights distributed alongside this software are licensed separately
+under CC-BY-4.0; see MODELS.md.

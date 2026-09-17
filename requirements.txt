@@ -1,0 +1,21 @@
+# Pinned runtime dependencies for tiled mosaic segmentation.
+#
+# These are the exact versions used to verify that this code reproduces the
+# study masks bit-for-bit, on Python 3.12.3. They are pinned because that
+# verification is the point of the release: newer releases very likely work,
+# but an unpinned install now resolves to a materially different stack
+# (opencv 5.x, keras 3.15, torch 2.14), and a change in, say, cv2.resize would
+# alter masks silently.
+#
+# To install a newer stack deliberately, use the looser bounds in
+# pyproject.toml instead: pip install -e .
+#
+# Torch is pinned without a CUDA suffix. For GPU inference install the build
+# matching your driver from https://pytorch.org/get-started/locally/ -- results
+# are bit-identical to the reference masks on CUDA; see the README note on CPU.
+
+keras==3.8.0
+torch==2.10.0        # verified on the +cu130 build; CPU wheel of the same version also works
+numpy==2.2.2
+opencv-python==4.11.0.86
+tifffile==2026.1.28
